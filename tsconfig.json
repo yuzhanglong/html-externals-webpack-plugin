@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "rootDir": "./src",
+    "target": "es2017",
+    "module": "commonjs",
+    "outDir": "./lib",
+    "strict": true,
+    "strictNullChecks": true
+  },
+  "include": [
+    "./src"
+  ]
+}
