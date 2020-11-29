@@ -31,11 +31,11 @@ interface Compiler {
 }
 
 
-class Index {
-  htmlWebpackPlugin: Index | null = null;
+class HtmlExternalsWebpackPlugin {
+  htmlWebpackPlugin: HtmlExternalsWebpackPlugin | null = null;
   scriptSources: string[] = [];
 
-  constructor(htmlWebpackPlugin: Index, scriptSources: string[]) {
+  constructor(htmlWebpackPlugin: HtmlExternalsWebpackPlugin, scriptSources: string[]) {
     this.htmlWebpackPlugin = htmlWebpackPlugin;
     this.scriptSources = scriptSources;
   }
@@ -65,4 +65,4 @@ class Index {
   }
 }
 
-module.exports = Index;
+module.exports = HtmlExternalsWebpackPlugin;

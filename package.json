@@ -1,6 +1,6 @@
 {
-  "name": "html-external-webpack-plugin",
-  "version": "0.0.1",
+  "name": "html-externals-webpack-plugin",
+  "version": "0.0.2",
   "description": "webpack plugin for externals",
   "main": "index.js",
   "scripts": {
