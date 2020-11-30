@@ -1,6 +1,17 @@
 # html-externals-webpack-plugin
 A webpack plugin that inserts externals into html
 
+## install
+### use yarn
+```shell script
+yarn add html-externals-webpack-plugin
+```
+
+### use npm
+```shell script
+npm install html-externals-webpack-plugin
+```
+
 ## usage
 
 ```javascript
@@ -8,7 +19,7 @@ A webpack plugin that inserts externals into html
 const HtmlExternalsWebpackPlugin = require('html-externals-webpack-plugin');
 module.exports = {
   plugins: [
-        // 生产环境下插入external模块的CDN脚本
+        // inserts externals into html
         isEnvProduction && new HtmlExternalsWebpackPlugin(HtmlWebpackPlugin, [
           'https://cdn.jsdelivr.net/npm/react@16.13.1/umd/react.production.min.js',
           'https://cdn.jsdelivr.net/npm/react-dom@16.13.1/umd/react-dom.production.min.js',
